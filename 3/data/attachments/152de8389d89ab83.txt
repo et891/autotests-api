@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/courses/74a523df-6a27-4f3e-97f9-76e5c208de49' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEyLTIwVDE4OjQ5OjQ5LjM5Mzk1MyIsInVzZXJfaWQiOiIxZTczZGExZC1hNjJjLTRkNTYtYTU5Mi1hNjEwYzYzMTcwMTQifQ.PU-0NI-nL-lYikEV2UsRLWT9M_sz7-JZBuvR5mCUxMw' \
+  -H 'content-length: 283' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Turn plant sense candidate thing.","maxScore":58,"minScore":21,"description":"Such professional range laugh stock nation. Everybody name property. Religious do one section region.\nTry meet enough day these risk. Outside rate between next least.","estimatedTime":"1 weeks"}'

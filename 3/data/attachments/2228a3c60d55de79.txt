@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEyLTIwVDE4OjQ5OjUyLjYyNDQzMiIsInVzZXJfaWQiOiJmYzA1NmEzYi1lNGVhLTRjZWItODIyYi0zOTcyNzczYWVhMjQifQ.PL-m0oNaNZgfmj4ne7aiIzfXq7NMx7R_nyW4OJksXfM' \
+  -H 'content-length: 400' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Alone even ten five.","maxScore":100,"minScore":9,"description":"Nor current board the mother sing. Kind type offer mission hit. Price only glass stock answer glass sort.\nEast reason meeting magazine call behind. Whom kind main meet level many fish.","estimatedTime":"6 weeks","previewFileId":"c6898cdf-3dd3-48af-ad94-0987b3f2e94b","createdByUserId":"fc056a3b-e4ea-4ceb-822b-3972773aea24"}'

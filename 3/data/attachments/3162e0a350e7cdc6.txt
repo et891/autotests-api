@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEyLTIwVDE4OjQ5OjUwLjg2ODg4MyIsInVzZXJfaWQiOiJkNjNkOTE1My0xMjU2LTRkMTktYjM3ZS1kMzA0ODMxMmRiNDQifQ.6FaJaO5XkmWPh_hFd3FEHE7R_WZi76yYcQu7t1CQzQU' \
+  -H 'content-length: 421' \
+  -H 'content-type: application/json' \
+  -d '{"title":"See value majority his third threat ok.","maxScore":60,"minScore":13,"description":"Ok study fire see.\nTheir must bit late. My weight work back.\nMorning cup morning against population official animal feel. Never miss strong. Sport political practice you nice indicate.","estimatedTime":"10 weeks","previewFileId":"6a099210-5b2d-4f55-887a-e393b89027d5","createdByUserId":"d63d9153-1256-4d19-b37e-d3048312db44"}'

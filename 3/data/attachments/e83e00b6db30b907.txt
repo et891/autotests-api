@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEyLTIwVDE4OjQ5OjUzLjI1MjkzOCIsInVzZXJfaWQiOiI0YWFkZjUzOS0xMjM2LTQwNWItYmRhMy03OTUyZmVkZWYxZmUifQ.g4cTpMiOIkOHrO2jZiq2Lc4Ayv-Wi9eLQnNS9eivHsk' \
+  -H 'content-length: 408' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Season south provide crime after.","maxScore":76,"minScore":21,"description":"Upon continue just language happen chance involve while. Pick than mean air carry else try. Happy receive eat mission top.\nMatter score city safe popular. Tough agree catch style.","estimatedTime":"3 weeks","previewFileId":"22b3dd27-54c9-4069-9649-07a7e7e37c76","createdByUserId":"4aadf539-1236-405b-bda3-7952fedef1fe"}'
