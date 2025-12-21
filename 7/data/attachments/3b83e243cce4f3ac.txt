@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEyLTIxVDA5OjQ3OjU1LjM3NTU1NCIsInVzZXJfaWQiOiIyMDlkOWI3MC0yYjY3LTQyOWQtYTEyMi03MGUzOWUzZDAzYzkifQ.hqV5kl4A6befSNqAEyGuZLzy6fV4t8N_vpaMddzz_Fk' \
+  -H 'content-length: 393' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Him Congress response say study effect.","maxScore":62,"minScore":22,"description":"Real lot artist sign central. Former lawyer people language recognize physical health.\nMinute approach together particular lose. Participant begin side radio.","estimatedTime":"8 weeks","previewFileId":"db470bf4-fe59-437b-bc12-188f8c08f7a8","createdByUserId":"209d9b70-2b67-429d-a122-70e39e3d03c9"}'

@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEyLTIxVDA5OjQ3OjU2Ljg1NDkyMSIsInVzZXJfaWQiOiIzY2MxZGU3My02YjM1LTQwOGMtYmYxNS00Yzk0NTY5ZWQ0NWEifQ._b37fQv3Hi7kGjeXTEqA7bJRzm9CLRt4ke3v1VqHdHs' \
+  -H 'content-length: 367' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Goal law theory because employee.","maxScore":86,"minScore":21,"description":"Bit cause nation before garden. Note company future stay its. Floor radio under mother factor military. Available rather interest me radio.","estimatedTime":"1 weeks","previewFileId":"2b0dbc7e-3b25-43c9-aef7-61016cd9b7f2","createdByUserId":"3cc1de73-6b35-408c-bf15-4c94569ed45a"}'

@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEyLTIxVDA5OjQ3OjU2LjI2NzE3NCIsInVzZXJfaWQiOiI3NmYyZmI2Mi1lMDNjLTQ5ZGMtYjc1ZS0yMGYyNDI1YWNkOWIifQ.lhYoRgLNN-M_2hOqXowaZlhoXKW0A_f-pqbxW-vQ5EU' \
+  -H 'content-length: 312' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Full theory pattern base.","maxScore":51,"minScore":8,"description":"Business help firm similar step able. Hit among much. But tax surface team laugh hour become.","estimatedTime":"4 weeks","previewFileId":"7881b859-5837-458b-8375-b99279e13b8d","createdByUserId":"76f2fb62-e03c-49dc-b75e-20f2425acd9b"}'

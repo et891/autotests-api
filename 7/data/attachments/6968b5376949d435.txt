@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEyLTIxVDA5OjQ3OjU5Ljg0OTg4OCIsInVzZXJfaWQiOiJjOWY0ZGFjZi00NGM0LTRlM2EtOTc2ZS05Mzc1MzE0MWY1MDIifQ.Kh04jjTr6N39x1awdmnEEoNtZ8lho4A0WBuLCqKPsxw' \
+  -H 'content-length: 399' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Western challenge safe child.","maxScore":67,"minScore":9,"description":"Which significant wonder kid head. Situation pretty family family defense.\nSing wonder nothing organization significant small result. Respond help authority kitchen yet shake.","estimatedTime":"3 weeks","previewFileId":"846074ee-3876-4d46-b42f-127914cfd0cd","createdByUserId":"c9f4dacf-44c4-4e3a-976e-93753141f502"}'

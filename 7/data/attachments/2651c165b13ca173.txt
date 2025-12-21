@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/courses/66a8951f-5987-478a-9e12-478c9e52cac1' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEyLTIxVDA5OjQ3OjU1LjM3NTU1NCIsInVzZXJfaWQiOiIyMDlkOWI3MC0yYjY3LTQyOWQtYTEyMi03MGUzOWUzZDAzYzkifQ.hqV5kl4A6befSNqAEyGuZLzy6fV4t8N_vpaMddzz_Fk' \
+  -H 'content-length: 261' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Sense light step area instead current job.","maxScore":81,"minScore":25,"description":"Western Democrat general born everybody. Everything effect brother take social. Agent ok factor enter wish. Pull minute prevent require.","estimatedTime":"4 weeks"}'
