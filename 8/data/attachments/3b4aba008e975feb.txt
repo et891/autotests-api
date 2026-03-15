@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAzLTE1VDE5OjA3OjAzLjIxNDAxNCIsInVzZXJfaWQiOiI0NjAwNzEyYy0wODg2LTQ3NjctYWVhNC1lYTEzYTAxYWE4OTcifQ.MRZSwd4wZGpEVUmFyAZ5Jc6g3izweYYBbC15NJC7RuQ' \
+  -H 'content-length: 391' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Reality blue arm both.","maxScore":89,"minScore":2,"description":"Nor seem green him they. Forget old health feeling. Never career another miss.\nWhile mention everything away role may reach compare.\nRegion husband center executive through.","estimatedTime":"2 weeks","previewFileId":"58be456c-2026-4752-816c-bf52d4c0a8d3","createdByUserId":"4600712c-0886-4767-aea4-ea13a01aa897"}'

@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAzLTE1VDE5OjA2OjU5LjU0NTgwMyIsInVzZXJfaWQiOiI0NGU0ZGJhOC0yZDkzLTQyZmMtYTk1NC1jOTRlMzZiNGVlODYifQ.O4Hwq9iQq5EQ0VEYGlNO280BLNttlYky8ZKLbXg0lbU' \
+  -H 'content-length: 342' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Role ok my star toward.","maxScore":63,"minScore":7,"description":"Generation plant let before. Expert worker write. Lawyer movement short tonight knowledge notice turn. Lay everything friend.","estimatedTime":"7 weeks","previewFileId":"92980892-330a-4351-8615-fee59d0b4c6f","createdByUserId":"44e4dba8-2d93-42fc-a954-c94e36b4ee86"}'

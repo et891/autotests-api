@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAzLTE1VDE5OjA3OjAxLjk2ODY2OSIsInVzZXJfaWQiOiJkOTRhY2I3Mi1iMDg0LTRhNjktOTdhYy01ODQ1OGZkZTM2YzUifQ.j9Bbdp4KqCMrDB0jtV9z5Dzy6bcZ7BDuJSPw3PxPXAg' \
+  -H 'content-length: 329' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Safe example fire light mission day financial.","maxScore":61,"minScore":13,"description":"Air measure us former. Other yourself goal focus fish blood trade.\nEmployee much sport.","estimatedTime":"7 weeks","previewFileId":"e2528313-0f13-431e-889a-f8fc8061bf25","createdByUserId":"d94acb72-b084-4a69-97ac-58458fde36c5"}'

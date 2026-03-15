@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/courses/2979f4be-9c2d-435b-a9aa-e263e31dd903' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAzLTE1VDE5OjA2OjU4Ljk2MjE3NSIsInVzZXJfaWQiOiJhOTJjY2I3NS0zOTJjLTRmYWMtODhkNi1jZDk4OTg1ZTAxMTEifQ.fi8cSP5vkYB3YN12lffZvp_Ng6jdyZ6xvdGN3bTOjjc' \
+  -H 'content-length: 325' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Figure trouble administration crime difference near assume.","maxScore":55,"minScore":6,"description":"Over picture deal evidence body career experience. Floor be collection idea bank.\nExample away system back they history authority. Section push reduce sister. Career product add loss.","estimatedTime":"4 weeks"}'

@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAzLTE1VDE5OjA2OjU4Ljk2MjE3NSIsInVzZXJfaWQiOiJhOTJjY2I3NS0zOTJjLTRmYWMtODhkNi1jZDk4OTg1ZTAxMTEifQ.fi8cSP5vkYB3YN12lffZvp_Ng6jdyZ6xvdGN3bTOjjc' \
+  -H 'content-length: 411' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Since cold candidate ever.","maxScore":90,"minScore":10,"description":"Over piece including again prevent well. Protect government card answer four.\nBecause last candidate couple. Forget risk real need identify me. Place somebody half scientist audience bank.","estimatedTime":"10 weeks","previewFileId":"50b30db6-c19c-4103-b9d3-f6521b96792b","createdByUserId":"a92ccb75-392c-4fac-88d6-cd98985e0111"}'

@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAzLTE1VDE5OjA3OjAwLjIwNDAyOSIsInVzZXJfaWQiOiI0Mzc4YjkzNi0yNmExLTQ3MmYtYTc2Yi0xYTQ2MzlmODcwZjgifQ.CdAVwVaRSyu7OYCYUBIBh9NHNzDUq7zHqrZWhZYyBpE' \
+  -H 'content-length: 416' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Room weight staff tax.","maxScore":56,"minScore":6,"description":"Price between worry political time. Bank type relate strong society month next business. Enough nothing deep away increase model.\nGirl protect appear store bill. Popular suddenly single total cause.","estimatedTime":"10 weeks","previewFileId":"e19fb98c-e436-4807-9eb7-278fdc194762","createdByUserId":"4378b936-26a1-472f-a76b-1a4639f870f8"}'

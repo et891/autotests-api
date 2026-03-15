@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAzLTE1VDE5OjA3OjAzLjIxNDAxNCIsInVzZXJfaWQiOiI0NjAwNzEyYy0wODg2LTQ3NjctYWVhNC1lYTEzYTAxYWE4OTcifQ.MRZSwd4wZGpEVUmFyAZ5Jc6g3izweYYBbC15NJC7RuQ' \
+  -H 'content-length: 370' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Action oil best table mouth agreement agreement.","courseId":"854a83f6-41d2-472b-b279-78eaeec40724","maxScore":93,"minScore":5,"orderIndex":41,"description":"Professional participant citizen blood up time. Article employee their view tax available watch that. Part television his risk.\nProfessor affect drop lot Democrat care side.","estimatedTime":"8 weeks"}'
