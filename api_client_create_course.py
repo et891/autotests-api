@@ -30,4 +30,4 @@ create_course_request = CreateCourseRequestSchema(
     created_by_user_id=create_user_response.user.id
 )
 create_course_response = courses_client.create_course(create_course_request)
-print('Create course data:', create_course_response)
+print('Create course data: ', create_course_response)
